@@ -1,11 +1,17 @@
 const React = require('react')
 const Def = require('./default')
 
-function home(){
+function home () {
     return (
         <Def>
             <main>
                 <h1>HOME</h1>
+                <div>
+                    <img src="/images/tacos.jpg" alt="Taco Picture" />
+                    <div>
+                        Photo by <a href="https://unsplash.com/@thenixcompany?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">The Nix Company</a> on <a href="https://unsplash.com/s/photos/free-taco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </div>
+                </div>
                 <a href="/places">
                     <button className="btn-primary">Places Page</button>
                 </a>
