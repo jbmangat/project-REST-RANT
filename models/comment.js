@@ -7,4 +7,6 @@ let commentSchema = new mongoose.Schema({
     content: { type: String, default: '' }
 })
   
-module.exports = mongoose.model('Comment', commentSchema)
+console.log("Comment model is exported correctly");
+module.exports = mongoose.model("Comment", commentSchema);
+

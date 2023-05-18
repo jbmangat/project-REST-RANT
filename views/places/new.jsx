@@ -27,7 +27,7 @@ function new_form() {
             <input 
               className="form-control" 
               id="city" 
-              name="city" />
+              name="city" /> 
           </div>
           <div className="form-group">
             <label htmlFor="state">State</label>
